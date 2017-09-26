@@ -52,3 +52,20 @@ function prependKitten(name) {
 }
 
 prependKitten();
+
+function removeLastKitten(name) {
+  var fewerKittens = kittens.slice(0, kittens.length - 1);
+//  var fewerKittens = [name, ...kittens];
+  console.log(fewerKittens);
+  return fewerKittens;
+}
+
+removeLastKitten();
+
+function removeFirstKitten(name) {
+  var fewerKittens = kittens.slice(1);
+  console.log(fewerKittens);
+  return fewerKittens;
+}
+
+removeFirstKitten();
