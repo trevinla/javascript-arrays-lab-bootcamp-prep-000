@@ -29,7 +29,7 @@ function destructivelyRemoveLastKitten() {
 destructivelyRemoveLastKitten();
 
 function destructivelyRemoveFirstKitten() {
-  kittens.slice(1);
+  kittens.shift();
   //kittens[3] = ('Ralph');
   console.log(kittens);
   return kittens;
