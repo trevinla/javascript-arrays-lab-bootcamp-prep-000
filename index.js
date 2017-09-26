@@ -9,4 +9,3 @@ function destructivelyAppendKitten(name) {
 }
 console.log(kittens);
 destructivelyAppendKitten('Ralph');
-
