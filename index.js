@@ -27,3 +27,12 @@ function destructivelyRemoveLastKitten() {
 }
 
 destructivelyRemoveLastKitten();
+
+function destructivelyRemoveLastKitten() {
+  kittens.slice(1);
+  //kittens[3] = ('Ralph');
+  console.log(kittens);
+  return kittens;
+}
+
+destructivelyRemoveFirstKitten();
