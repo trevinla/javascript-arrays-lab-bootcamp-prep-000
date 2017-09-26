@@ -7,6 +7,6 @@ function destructivelyAppendKitten(name) {
   console.log(kittens);
   return kittens;
 }
-
-destructivelyAppendKitten('Ralph');
 console.log(kittens);
+destructivelyAppendKitten('Ralph');
+
