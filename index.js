@@ -44,3 +44,11 @@ function appendKitten(name) {
 }
 
 appendKitten();
+
+function prependKitten(name) {
+  var fewerKittens = [name, ...kittens];
+  console.log(fewerKittens);
+  return fewerKittens;
+}
+
+prependKitten();
