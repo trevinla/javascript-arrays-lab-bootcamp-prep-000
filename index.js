@@ -36,3 +36,11 @@ function destructivelyRemoveFirstKitten() {
 }
 
 destructivelyRemoveFirstKitten();
+
+function appendKitten() {
+  moreKittens = ["Felix", ...kittens];
+  console.log(moreKittens);
+  return moreKittens;
+}
+
+appendKitten();
