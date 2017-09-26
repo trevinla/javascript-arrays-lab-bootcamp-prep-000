@@ -37,10 +37,10 @@ function destructivelyRemoveFirstKitten() {
 
 destructivelyRemoveFirstKitten();
 
-function appendKitten() {
-  var moreKittens = ["Felix", ...kittens];
+function appendKitten(name) {
+  var moreKittens = [name, ...kittens];
   console.log(moreKittens);
   return moreKittens;
 }
 
-appendKitten();
+appendKitten("Felix");
