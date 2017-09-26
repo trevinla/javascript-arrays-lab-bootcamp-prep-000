@@ -43,4 +43,4 @@ function appendKitten(name) {
   return moreKittens;
 }
 
-appendKitten("Felix");
+appendKitten();
