@@ -4,6 +4,6 @@ function destructivelyAppendKitten(name) {
   var kittens = ['Milo', 'Otis', 'Garfield'];
   var moreKittens = kittens.push('Ralph');
   //kittens[3] = ('Ralph');
-  // console.log(kittens);
+  console.log(moreKittens);
   return moreKittens;
 }
