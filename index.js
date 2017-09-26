@@ -8,7 +8,7 @@ function destructivelyAppendKitten(name) {
   return kittens;
 }
 
-destructivelyAppendKitten('Ralph');
+destructivelyAppendKitten();
 
 function destructivelyPrependKitten(name) {
   kittens.unshift(name);
@@ -17,7 +17,7 @@ function destructivelyPrependKitten(name) {
   return kittens;
 }
 
-destructivelyPrependKitten('Bob');
+destructivelyPrependKitten();
 
 function destructivelyRemoveLastKitten() {
   kittens.pop();
